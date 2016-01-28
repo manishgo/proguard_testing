@@ -1,0 +1,22 @@
+-keep class com.proguardtesting.Main {
+  *;
+}
+
+-keepattributes Signature, *Annotation*
+
+-keep public @interface com.proguardtesting.annotations.MyAnnotation {
+  *;
+}
+
+-keepclasseswithmembers class * {
+   @com.proguardtesting.annotations.MyAnnotation <fields>;
+}
+
+-keepnames class * {
+   @com.proguardtesting.annotations.MyAnnotation <fields>;
+}
+
+-printseeds proguard-output.txt
+-whyareyoukeeping class com.proguardtesting.Lion
+-verbose
+

@@ -1,0 +1,8 @@
+com.thoughtworks.Animal
+com.thoughtworks.Jungle
+com.thoughtworks.Jungle: java.util.List lions
+com.thoughtworks.Lion
+com.thoughtworks.Main
+com.thoughtworks.Main: Main()
+com.thoughtworks.Main: void main(java.lang.String[])
+com.thoughtworks.annotations.MyAnnotation

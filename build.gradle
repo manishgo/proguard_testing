@@ -22,8 +22,10 @@ task proguard(type: proguard.gradle.ProGuardTask, dependsOn : 'build') {
     configuration 'src/proguard-rules.txt'
     injars 'build/libs/proguard_testing-1.0.jar'
     outjars 'build/libs/proguard_testing-proguard-1.0.jar'
-    libraryjars '/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/rt.jar'
+    libraryjars "${System.getenv("JAVA_HOME")}/jre/lib/rt.jar"
 }
+
+println "${System.getenv('JAVA_HOME')}/jre/lib/rt.jar"
 
 repositories {
     mavenCentral()

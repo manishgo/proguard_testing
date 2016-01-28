@@ -1,8 +1,8 @@
-com.thoughtworks.Animal
-com.thoughtworks.Jungle
-com.thoughtworks.Jungle: java.util.List lions
-com.thoughtworks.Lion
-com.thoughtworks.Main
-com.thoughtworks.Main: Main()
-com.thoughtworks.Main: void main(java.lang.String[])
-com.thoughtworks.annotations.MyAnnotation
+com.proguardtesting.Animal
+com.proguardtesting.Jungle
+com.proguardtesting.Jungle: java.util.List lions
+com.proguardtesting.Lion
+com.proguardtesting.Main
+com.proguardtesting.Main: Main()
+com.proguardtesting.Main: void main(java.lang.String[])
+com.proguardtesting.annotations.MyAnnotation
